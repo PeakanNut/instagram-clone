@@ -14,6 +14,13 @@
 		861CEF001C724B1000F82A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861CEEFE1C724B1000F82A74 /* LaunchScreen.storyboard */; };
 		861CEF0B1C724B1100F82A74 /* instagramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF0A1C724B1100F82A74 /* instagramCloneTests.swift */; };
 		861CEF161C724B1100F82A74 /* instagramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF151C724B1100F82A74 /* instagramCloneUITests.swift */; };
+		861CEF271C72632100F82A74 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF261C72632100F82A74 /* PostModel.swift */; };
+		861CEF2B1C72657500F82A74 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF2A1C72657500F82A74 /* ProfileModel.swift */; };
+		861CEF2D1C7266D300F82A74 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF2C1C7266D300F82A74 /* ProfileController.swift */; };
+		861CEF2F1C726E5600F82A74 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF2E1C726E5600F82A74 /* FeedController.swift */; };
+		861CEF311C72753100F82A74 /* CenterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF301C72753100F82A74 /* CenterTabBarController.swift */; };
+		861CEF331C72773500F82A74 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF321C72773500F82A74 /* CameraController.swift */; };
+		861CEF351C72794B00F82A74 /* CaptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CEF341C72794B00F82A74 /* CaptionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		861CEF111C724B1100F82A74 /* instagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861CEF151C724B1100F82A74 /* instagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramCloneUITests.swift; sourceTree = "<group>"; };
 		861CEF171C724B1100F82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861CEF261C72632100F82A74 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		861CEF2A1C72657500F82A74 /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		861CEF2C1C7266D300F82A74 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		861CEF2E1C726E5600F82A74 /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		861CEF301C72753100F82A74 /* CenterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTabBarController.swift; sourceTree = "<group>"; };
+		861CEF321C72773500F82A74 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		861CEF341C72794B00F82A74 /* CaptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,9 @@
 		861CEEF41C724B1000F82A74 /* instagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				861CEF251C724E1D00F82A74 /* Controller */,
+				861CEF241C724E1700F82A74 /* View */,
+				861CEF231C724E1100F82A74 /* Model */,
 				861CEEF51C724B1000F82A74 /* AppDelegate.swift */,
 				861CEEF71C724B1000F82A74 /* ViewController.swift */,
 				861CEEF91C724B1000F82A74 /* Main.storyboard */,
@@ -123,6 +140,34 @@
 				861CEF171C724B1100F82A74 /* Info.plist */,
 			);
 			path = instagramCloneUITests;
+			sourceTree = "<group>";
+		};
+		861CEF231C724E1100F82A74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				861CEF261C72632100F82A74 /* PostModel.swift */,
+				861CEF2A1C72657500F82A74 /* ProfileModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		861CEF241C724E1700F82A74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		861CEF251C724E1D00F82A74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				861CEF2C1C7266D300F82A74 /* ProfileController.swift */,
+				861CEF2E1C726E5600F82A74 /* FeedController.swift */,
+				861CEF301C72753100F82A74 /* CenterTabBarController.swift */,
+				861CEF321C72773500F82A74 /* CameraController.swift */,
+				861CEF341C72794B00F82A74 /* CaptionController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861CEF2D1C7266D300F82A74 /* ProfileController.swift in Sources */,
+				861CEF2F1C726E5600F82A74 /* FeedController.swift in Sources */,
 				861CEEF81C724B1000F82A74 /* ViewController.swift in Sources */,
+				861CEF351C72794B00F82A74 /* CaptionController.swift in Sources */,
+				861CEF271C72632100F82A74 /* PostModel.swift in Sources */,
 				861CEEF61C724B1000F82A74 /* AppDelegate.swift in Sources */,
+				861CEF2B1C72657500F82A74 /* ProfileModel.swift in Sources */,
+				861CEF331C72773500F82A74 /* CameraController.swift in Sources */,
+				861CEF311C72753100F82A74 /* CenterTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +534,7 @@
 				861CEF1C1C724B1100F82A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861CEF1D1C724B1100F82A74 /* Build configuration list for PBXNativeTarget "instagramCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +543,7 @@
 				861CEF1F1C724B1100F82A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861CEF201C724B1100F82A74 /* Build configuration list for PBXNativeTarget "instagramCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +552,7 @@
 				861CEF221C724B1100F82A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
